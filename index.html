@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="gameSquare.js"></script>
+</head>
+<body>
+    <form name=myForm id="form1">
+        <h2 id="h2">Игра "Найди пару"</h2>
+        <div id="place"></div><br><br>
+        <input type="button" id="start" value="Старт" onclick="StartStop()"><br><br>
+        <input name=stopwatch size=10 value="00:00:00.00">
+        <div id="popUp"><br><br>
+            <p>Вы победили! Затраченное время: <div id="res"></div></p>
+            <input type="button" id="resOk" value="Ok" onclick="window.location.reload();">
+        </div>
+    </form>
+    <script type="text/javascript" src="time.js"></script>
+</body>
+</html>
